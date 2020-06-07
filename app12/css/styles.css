@@ -1,0 +1,24 @@
+.plantilla{
+    margin: 0 auto;
+    width: 400px;
+    height: 360px;
+    background-image: url(../images/tablero2.png);
+    background-size: 400px, 400px, auto;
+    background-position: 0px -26px;
+}
+
+.linea{
+    width: 350px;
+    height: 100px;
+    margin-top: 14px;
+    margin-left: 25px;
+    margin-bottom: 23px;
+}
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 11px;
+    text-align: center;
+}

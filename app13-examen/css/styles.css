@@ -1,0 +1,25 @@
+.tablero{
+    margin: 0 auto;
+    width: 820px;
+    height: 1612px;
+    background-image: url(images/madera.jpg);
+    background-size: 820px,820px, auto;
+    background-position: 0px -26px;
+}
+.linea{
+    width: 820 px;
+    height: 100px;
+    margin-top: 14px;
+    margin-left: 25px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.carta{
+    width: 181px;
+    height: 403px;
+    float: left;
+    margin-left: 11px;
+    text-align: center;
+    background-image: url(images/0.jpg);
+}

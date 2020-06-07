@@ -1,0 +1,12 @@
+Tenemos que tener en cuenta que cuando desarrollemos unas websevices no solo seran disponibles para nosotros 
+si no que tamibien para 3ras personas y por lo tanto debemos de mostrar para lo que sirve el web service
+y para hacer esto tenemos un lenguaje WSDL (Web Service Definition Lenguage) que nos permite definir los
+parametros y alcance que tiene nuestra WS
+
+------> Consumir servicios SOAP externos <--------
+
+Hasta el momento solo usabamos webservices locales en el caso de externos no conectamos desde el index de 
+manera normal
+
+$client = new nusoap_client("url_soap_service?wsld","wsdl");
+

@@ -1,0 +1,47 @@
+.izquierda{
+    background-color:#060000;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    position:absolute;
+}
+.derecha{
+    background-color:#060000;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    position:absolute;
+    left: 98px
+}
+.cabeza{
+    background-color:#060000;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    position:absolute;
+    left:25px;
+    top:25px;
+}
+.cuerpo{
+    width:150px;
+    height:125px;
+    position:relative;
+}
+.foto{
+    background-color:teal;
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left: 10px;
+    background-position-x: 50%;
+    background-position-y: 29%;
+}
+.cuerpo:hover div.izquierda, .cuerpo:hover div.derecha, .cuerpo:hover div.cabeza
+{
+    background-color: #5E9FF7;
+}
+.foto:hover{
+    transform: rotate(20deg);
+}
